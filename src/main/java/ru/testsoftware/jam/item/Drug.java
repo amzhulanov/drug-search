@@ -1,10 +1,23 @@
 package ru.testsoftware.jam.item;
 
+
 public class Drug {
+
+
     private Integer id_drug;
     private String name;
     private String description;
     private Integer cost;
+
+    public Drug() {
+    }
+
+    public Drug(Integer id_drug, String name, String description, Integer cost) {
+        this.id_drug = id_drug;
+        this.name = name;
+        this.description = description;
+        this.cost = cost;
+    }
 
     public Integer getId_drug() {
         return id_drug;
